@@ -1,0 +1,61 @@
+
+
+body {
+    margin:0;
+    padding:0;
+    background-color:aqua;
+    text-align:center;
+}
+#pag {
+    width:1024px;
+    margin-top:10px;
+    margin:0 auto;
+    background:url("./images/fundo.jpg")
+}
+#logo {
+    width:200px;
+    height:180px;
+    float:left;
+    background:url("./images/logo.jpg")
+}
+#menu {
+    width:200px;
+    height:500px;
+    float:left;
+    background-color:gold;
+}
+
+#titulo {
+    width:824px;
+    height:180px;
+    float:right;
+    background-color: paleturquoise
+        
+}
+
+#conteudo {
+    width:824px;
+    height:500px;
+    float:right;
+    text-align:left;
+    background:url("./images/fundo.jpg")
+}
+
+
+h1 {
+   text-align:center
+}
+
+h2 {
+    
+}
+
+table {
+    width: 824px;
+    padding: 10px;
+    background-color: #c5e7e0;
+    
+}
+
+form{
+}
