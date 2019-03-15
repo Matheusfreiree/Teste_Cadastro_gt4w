@@ -36,6 +36,8 @@
                     <input type="text" name="Nome" value="" size="70" /><br><br>
                     CPF:<br>
                     <input type="text" name="CPF" value="" /><br><br>
+                    Data de Nascimento:<br>
+                    <input type="text" name="Data" value="" size="10" /> (mm/dd/aaaa)<br><br>
                     Peso:<br>
                     <input type="text" name="Peso" value="" size="5" /> Kg<br><br>
                     UF <select name="estados">

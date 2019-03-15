@@ -19,13 +19,14 @@
             String Nome = request.getParameter("Nome");
             String UF = request.getParameter("estados");
             String Peso = request.getParameter("Peso");
+            String Data = request.getParameter("Data");
         %>
 
         
         
     <sql:update var="Cadastrando" dataSource="jdbc/empresa">
-        INSERT INTO clientes (CPF, Nome, UF, Peso)
-        VALUES (<%=CPF%>, "<%=Nome%>", "<%=UF%>", "<%=Peso%>")
+        INSERT INTO clientes (CPF, Nome, UF, Peso, Nascimento)
+        VALUES (<%=CPF%>, "<%=Nome%>", "<%=UF%>", "<%=Peso%>", "<%=Data%>")
     </sql:update>
     <div id="pag">
             <div id="logo">         
